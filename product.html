@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-8 h-8 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-grey-600 hidden md:flex">
+            <li>
+                <a class="hover:underline text-black" href="index.html"> Home</a>
+            </li>
+            <li>
+                <a class="hover:underline text-black" href="product.html"> Products</a>
+            </li>
+            <li>
+                <a class="hover:underline text-black" href="contact.html"> Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- bar -->
+    <section class="text-center">
+        <h1 class="text-4xl font-bold mt-10 text-center">Our Products</h1>
+        <input type="text" input placeholder="search For a Product..." class="border border-black p-3 m-5"
+            style="width: 80%">
+    </section>
+
+    <!-- photos -->
+    <section class="p-4 text-center">
+        <div class="grid grid-cols-2 md:grid-cols-4 m-5">
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2" src="./Images/Daisy.jpg" alt="Rose">
+                <h1>Daisy</h1>
+                <p>$25</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2" src="./Images/Daffodil.jpg" alt="Daffodil">
+                <h1>Daffodil</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2" src="./Images/sunflower.jpg" alt="Sunflower">
+                <h1>Sun Flower</h1>
+                <p>$15</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2" src="./Images/Carnation.jpg" alt="Carnation">
+                <h1>Carnation</h1>
+                <p>$12</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2 mt-5" src="./Images/Alstroemeria.jpg" alt="Alstroemeria">
+                <h1>Alstroemeria</h1>
+                <p>$10</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2 mt-5" src="./Images/Calla Lily.jpg" alt="Calla Lily">
+                <h1>Calla Lily</h1>
+                <p>$14</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2 mt-5" src="./Images/Orchid.jpg" alt="Orchid">
+                <h1>Orchid</h1>
+                <p>$16</p>
+            </div>
+
+            <div>
+                <img class="inline hover:shadow-2xl transform hover:-translate-y-2 mt-5" src="./Images/Tulip.jpg" alt="Tulip">
+                <h1>Tulip</h1>
+                <p>$19</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
