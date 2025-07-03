@@ -1,22 +1,26 @@
-# Greenden-tailwind
-
-🌿 Greenden Plants Website
-The Greenden Plants Website is a modern and responsive UI project built using HTML and Tailwind CSS. It showcases a clean and elegant design for a plant shop or nursery-themed website, emphasizing natural aesthetics and user-friendly layout. This project is ideal for beginners looking to practice with Tailwind CSS and understand responsive web design principles.
+🌿 Greenden – Plant E-Commerce Landing Page
+Greenden is a responsive and visually appealing landing page template for a plant e-commerce website. Built with HTML5 and Tailwind CSS, it’s designed to provide a clean user experience and showcase products elegantly across devices.
 
 ✨ Features
-Clean and minimal plant shop UI design
-Fully responsive layout across all screen sizes
-Smooth hover effects and visual hierarchy
-Built using utility-first Tailwind CSS framework
-Mobile-first and accessible design structure
+🌱 Responsive Navbar with mobile menu icon
+
+🏡 Hero section with promotional content and call-to-action buttons
+
+📦 About Us section with service highlights
+
+🛍️ Best Seller product showcase grid
+
+💬 Customer Testimonials section
+
+📧 Newsletter subscription form
+
+🔻 Clean footer with branding
+
 🛠️ Technologies Used
-HTML
-Tailwind CSS
+HTML5
+
+Tailwind CSS v2.2.19
+
+Responsive Design (Mobile First)
+
 📸 Preview
-👉 Visit Now
-
-🚀 Getting Started
-Clone the repository
-
-git clone https://itswikkibytes.github.io/Greenden-tailwind/
-Open index.html in your browser to view the site
