@@ -18,5 +18,5 @@ Tailwind CSS
 🚀 Getting Started
 Clone the repository
 
-git clone https://github.com/your-username/greenden-plant-website.git
+git clone https://itswikkibytes.github.io/Greenden-tailwind/
 Open index.html in your browser to view the site
